@@ -1,0 +1,154 @@
+.cta-section {
+    position: relative;
+
+    padding: 180px 40px;
+
+    font-family: "Montserrat", sans-serif;
+
+    overflow: hidden;
+}
+
+.cta-container {
+    position: relative;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    z-index: 2;
+}
+
+/* Soft background accent */
+
+.cta-section::before {
+    content: "";
+
+    position: absolute;
+
+    width: 700px;
+    height: 700px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle,
+        rgba(139, 32, 32, .08),
+        transparent 70%
+    );
+
+    z-index: 1;
+}
+
+.cta-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: #c62828;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.cta-container h2 {
+    color: #222;
+
+    font-size: clamp(2.8rem, 5vw, 4.4rem);
+    line-height: 1.08;
+    font-weight: 700;
+
+    margin-bottom: 28px;
+}
+
+.cta-container p {
+    max-width: 680px;
+
+    margin: 0 auto 50px;
+
+    color: #666;
+
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.bordered-button {
+    padding: 16px 36px;
+
+    border-radius: 999px;
+
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .3s ease;
+}
+
+.cta-primary {
+    border: none;
+
+    background: #c62828;
+    color: white;
+}
+
+.cta-primary:hover {
+    background: #c62828cc;
+
+    transform: translateY(-4px);
+}
+
+.cta-secondary {
+    background: transparent;
+
+    border: 2px solid #c62828;
+
+    color: #c62828;
+}
+
+.cta-secondary:hover {
+    background: #c62828cc;
+    color: white;
+
+    transform: translateY(-4px);
+}
+
+@media (max-width: 900px) {
+
+    .cta-section {
+        padding: 120px 20px;
+    }
+
+    .cta-container h2 {
+        font-size: 2.5rem;
+    }
+
+    .cta-container p {
+        font-size: 16px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-buttons button {
+        width: min(320px, 100%);
+    }
+
+}

@@ -1,0 +1,134 @@
+.curriculum {
+  width: min(1400px, 90%);
+  margin: 8rem auto;
+}
+
+.curriculum-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 5rem;
+}
+
+.curriculum-header h2 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.curriculum-header p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #666;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 12.5%;
+  right: 12.5%;
+  height: 4px;
+  background: #d9d9d9;
+  z-index: 0;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-dot {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #c62828;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  z-index: 2;
+  box-shadow: 0 8px 25px rgba(182, 30, 46, 0.3);
+}
+
+.timeline-line {
+  display: none;
+}
+
+.timeline-card {
+  margin-top: 2rem;
+  background: white;
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  transition: 0.3s;
+}
+
+.timeline-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.timeline-card .year {
+  display: inline-block;
+  color: #c62828;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.timeline-card p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .timeline {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .timeline::before {
+    left: 31px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    height: auto;
+    right: auto;
+  }
+
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .timeline-card {
+    margin-top: 0;
+  }
+
+  .timeline-dot {
+    margin-top: 0.5rem;
+  }
+}

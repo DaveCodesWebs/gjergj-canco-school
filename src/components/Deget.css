@@ -1,0 +1,40 @@
+.qualifications-section {
+    width: 100%;
+    max-width: 1500px;
+
+    height: 700px;
+
+    margin: 100px auto;
+    padding: 0 40px;
+
+    display: flex;
+    gap: 20px;
+
+    font-family: "Montserrat", sans-serif;
+
+    transition: gap .4s ease;
+}
+
+.qualifications-section:hover .qualification-card {
+    flex: 0.9;
+}
+
+.qualifications-section .qualification-card:hover {
+    flex: 2;
+}
+
+@media (max-width: 1000px) {
+    .qualifications-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .qualification-card {
+        min-height: 450px;
+    }
+
+    .qualifications-section:hover .qualification-card,
+    .qualifications-section .qualification-card:hover {
+        flex: 1;
+    }
+}
