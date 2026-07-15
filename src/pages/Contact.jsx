@@ -2,45 +2,44 @@ import Navbar from "../components/Navbar";
 export default function Contact() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <ContactHero />
-      
     </>
   );
 }
 
 import "./Contact.css";
 
-import bg from "../assets/images/hero-nav/shkolla.png";
+import bg from "../assets/images/hero-nav/shkolla.webp";
 
 export function ContactHero() {
   return (
     <section className="contact-hero" style={{ backgroundImage: `url(${bg})` }}>
       <div className="contact-overlay"></div>
 
-     <div className="contact-card">
-  <div className="contact-left">
-    <h1>Na Kontaktoni</h1>
+      <div className="contact-card">
+        <div className="contact-left">
+          <h1>Na Kontaktoni</h1>
 
-    <p>
-      Keni pyetje rreth pranimeve, profileve apo jetës në shkollë?
-      Plotësoni formularin dhe do t'ju përgjigjemi sa më shpejt.
-    </p>
+          <p>
+            Keni pyetje rreth pranimeve, profileve apo jetës në shkollë?
+            Plotësoni formularin dhe do t'ju përgjigjemi sa më shpejt.
+          </p>
 
-    <ContactForm />
+          <ContactForm />
 
-    <ContactInfo />
-  </div>
+          <ContactInfo />
+        </div>
 
-  <div className="contact-right">
-    <iframe
-      title="Gjergj Canco"
-      src="https://www.google.com/maps?q=Shkolla+Teknike+Elektrike+Gjergj+Canco,+Tiran%C3%AB&output=embed"
-      loading="lazy"
-      allowFullScreen
-    />
-  </div>
-</div>
+        <div className="contact-right">
+          <iframe
+            title="Gjergj Canco"
+            src="https://www.google.com/maps?q=Shkolla+Teknike+Elektrike+Gjergj+Canco,+Tiran%C3%AB&output=embed"
+            loading="lazy"
+            allowFullScreen
+          />
+        </div>
+      </div>
     </section>
   );
 }

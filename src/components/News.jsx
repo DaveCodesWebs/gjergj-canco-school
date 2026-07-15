@@ -1,10 +1,10 @@
 import "./News.css";
 
-import plastika from "../assets/images/plastika.jpg";
-import medalje from "../assets/images/medalje.jpg";
-import sisal from "../assets/images/sisal.jpg";
-import p2pzvicer from "../assets/images/p2pzvicer.jpg";
-import javapraktikes from "../assets/images/javapraktikes.jpg";
+import plastika from "../assets/images/plastika.webp";
+import medalje from "../assets/images/medalje.webp";
+import sisal from "../assets/images/sisal.webp";
+import p2pzvicer from "../assets/images/p2pzvicer.webp";
+import javapraktikes from "../assets/images/javapraktikes.webp";
 
 const blogs = [
   {

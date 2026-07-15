@@ -1,8 +1,8 @@
 import "./Deget.css";
 import QualificationCard from "./DegeCard";
 
-import tikImage from "../assets/images/Electronics/e.jpg";
-import elektroImage from "../assets/images/Electronics/elektronik1.jpg";
+import tikImage from "../assets/images/Electronics/e.webp";
+import elektroImage from "../assets/images/Electronics/elektronik1.webp";
 
 export default function Deget() {
   return (
@@ -30,7 +30,6 @@ export default function Deget() {
           "Telekomunikacion",
           "Riparime Elektronike",
           "Sisteme Energjetike",
-
         ]}
         type="elektroteknik"
       />

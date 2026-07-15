@@ -1,5 +1,5 @@
 import "./HomeAbout.css";
-import schoolImage from "../assets/images/good/two buddies.jpg";
+import schoolImage from "../assets/images/good/two buddies.webp";
 
 export default function HomeAbout() {
   return (

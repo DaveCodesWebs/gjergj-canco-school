@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import "./Apply.css";
 
-import heroBg from "../assets/images/hero-nav/shkolla.png";
+import heroBg from "../assets/images/hero-nav/shkolla.webp";
 import {
   ArrowRight,
   LogIn,
@@ -59,12 +59,8 @@ export default function Apply() {
         <div className="apply-overlay" />
 
         <div className="apply-card">
-
           <div className="apply-left">
-
-            <span className="badge">
-              Regjistrimet janë të hapura
-            </span>
+            <span className="badge">Regjistrimet janë të hapura</span>
 
             <h1>Regjistrimet për Klasën e 10-të</h1>
 
@@ -79,14 +75,12 @@ export default function Apply() {
             </p>
 
             <div className="study-box">
-
               <h3>Drejtimet</h3>
 
               <div className="study-tags">
                 <span>💻 TIK</span>
                 <span>⚡ Elektroteknikë</span>
               </div>
-
             </div>
 
             <a
@@ -98,44 +92,28 @@ export default function Apply() {
               Apliko në e-Albania
               <ArrowRight size={18} />
             </a>
-
           </div>
 
           <div className="apply-right">
-
             <h2>Si të Aplikoni</h2>
 
             <div className="steps">
-
               {steps.map((step, index) => (
-                <div
-                  className="step"
-                  key={step.title}
-                >
-                  <div className="step-number">
-                    {index + 1}
-                  </div>
+                <div className="step" key={step.title}>
+                  <div className="step-number">{index + 1}</div>
 
-                  <div className="step-icon">
-                    {step.icon}
-                  </div>
+                  <div className="step-icon">{step.icon}</div>
 
                   <div>
-
                     <h4>{step.title}</h4>
 
                     <p>{step.text}</p>
-
                   </div>
                 </div>
               ))}
-
             </div>
-
           </div>
-
         </div>
-
       </section>
     </>
   );

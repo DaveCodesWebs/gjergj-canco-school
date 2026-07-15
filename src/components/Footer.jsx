@@ -1,21 +1,13 @@
-import logo from "../assets/images/hero-nav/logorm.png";
+import logo from "../assets/images/hero-nav/logorm.webp";
 
 import { Phone, Mail, MapPin } from "lucide-react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
 export default function Footer() {
   return (
     <footer>
       <div className="footer1">
-        <img
-          src={logo}
-          className="footer-img"
-          alt="Gjergj Canco Logo"
-        />
+        <img src={logo} className="footer-img" alt="Gjergj Canco Logo" />
 
         <div className="footer-contact">
           <MapPin size={18} />
@@ -29,10 +21,7 @@ export default function Footer() {
           <span>04 248 5858</span>
         </a>
 
-        <a
-          href="mailto:info@gjergjcanco.edu.al"
-          className="footer-contact"
-        >
+        <a href="mailto:info@gjergjcanco.edu.al" className="footer-contact">
           <Mail size={18} />
           <span>info@gjergjcanco.edu.al</span>
         </a>

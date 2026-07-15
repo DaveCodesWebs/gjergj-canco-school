@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import heroBackground from "../assets/images/hero-nav/shkolla.png?url";
+import heroBackground from "../assets/images/hero-nav/shkolla.webp?url";
 
 export default function Hero() {
   const typingRef = useRef(null);

@@ -1,11 +1,11 @@
 import "./Gallery.css";
 
-import img1 from "../assets/images/good/smiing_ppl.jpg";
-import img2 from "../assets/images/good/eskursion2.jpg";
-import img3 from "../assets/images/good/partner.jpg";
-import img4 from "../assets/images/good/librari_smiling .jpg";
-import img5 from "../assets/images/good/sporti.jpg";
-import img6 from "../assets/images/good/smiling certificate.jpg";
+import img1 from "../assets/images/good/smiing_ppl.webp";
+import img2 from "../assets/images/good/eskursion2.webp";
+import img3 from "../assets/images/good/partner.webp";
+import img4 from "../assets/images/good/librari_smiling .webp";
+import img5 from "../assets/images/good/sporti.webp";
+import img6 from "../assets/images/good/smiling certificate.webp";
 
 import Statistics from "./Statistics";
 

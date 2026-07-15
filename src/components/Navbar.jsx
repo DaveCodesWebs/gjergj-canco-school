@@ -1,18 +1,16 @@
-import logo from "../assets/images/hero-nav/logorm.png";
+import logo from "../assets/images/hero-nav/logorm.webp";
 import "./CTA.css";
 import { Phone, ChevronDown } from "lucide-react";
-import { Link , useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const navigate = useNavigate();
   return (
     <nav>
       <Link to="/" style={{ cursor: "pointer" }}>
-      <img src={logo} alt="school-logo" className="nav__logo" />
-       </Link>
+        <img src={logo} alt="school-logo" className="nav__logo" />
+      </Link>
       <ul className="nav__links">
-        
-
         <li className="nav__item">
           <Link to="/apliko" className="nav__link">
             Apliko

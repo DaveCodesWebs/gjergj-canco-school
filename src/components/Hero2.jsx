@@ -1,5 +1,5 @@
 import "./Hero2.css";
-import heroBackground from "../assets/images/hero-nav/shkolla.png?url";
+import heroBackground from "../assets/images/hero-nav/shkolla.webp?url";
 
 export default function Hero2({ type = "tik" }) {
   return (
@@ -11,8 +11,7 @@ export default function Hero2({ type = "tik" }) {
     >
       <div className="hero-content2">
         <h1>
-          KURRIKULA -{" "}
-          <span>{type === "tik" ? "TIK" : "ELEKTROTEKNIK"}</span>
+          KURRIKULA - <span>{type === "tik" ? "TIK" : "ELEKTROTEKNIK"}</span>
         </h1>
       </div>
     </div>
