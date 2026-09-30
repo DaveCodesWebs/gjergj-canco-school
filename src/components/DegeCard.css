@@ -198,3 +198,180 @@
 .qualification-card:hover .qualification-bg {
     transform: scale(1.08);
 }
+
+/* ===== TABLET RESPONSIVE ===== */
+
+@media (max-width: 900px) {
+    .qualification-content {
+        padding: 40px;
+    }
+
+    .qualification-content h2 {
+        font-size: 2.2rem;
+        width: 100%;
+        max-width: 400px;
+        left: 40px;
+    }
+
+    .qualification-details {
+        left: 40px;
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .qualification-details p {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+
+    .qualification-tags span {
+        font-size: 0.85rem;
+        padding: 8px 14px;
+    }
+
+    .more {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width: 640px) {
+    .qualification-card {
+        min-height: 450px;
+    }
+
+    .qualification-content {
+        padding: 30px 20px;
+        justify-content: flex-end;
+    }
+
+    .qualification-content h2 {
+        font-size: 1.8rem;
+        width: 100%;
+        max-width: 100%;
+        position: static;
+        transform: none;
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .qualification-card:hover h2 {
+        top: auto;
+        transform: none;
+    }
+
+    .qualification-details {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        top: auto;
+        left: auto;
+        margin-top: 0;
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
+    }
+
+    .qualification-details p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        margin-bottom: 16px;
+    }
+
+    .qualification-tags {
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .qualification-tags span {
+        font-size: 0.75rem;
+        padding: 6px 12px;
+    }
+
+    .more {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+
+    .qualification-card:hover .qualification-overlay {
+        background: rgba(0,0,0,.6);
+    }
+
+    .qualification-card:hover::before {
+        transform: scale(1.02);
+    }
+}
+
+@media (max-width: 480px) {
+    .qualification-card {
+        min-height: 380px;
+        border-radius: 20px;
+    }
+
+    .qualification-content {
+        padding: 20px 16px;
+    }
+
+    .qualification-content h2 {
+        font-size: 1.4rem;
+        margin-bottom: 16px;
+    }
+
+    .qualification-details p {
+        font-size: 0.8rem;
+        margin-bottom: 12px;
+    }
+
+    .qualification-tags span {
+        font-size: 0.7rem;
+        padding: 5px 10px;
+    }
+
+    .more {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+}@media (hover: none) and (pointer: coarse) {
+    .qualification-card:hover {
+        transform: none;
+    }
+
+    .qualification-card:hover::before {
+        transform: none;
+    }
+
+    .qualification-card:hover .qualification-bg {
+        transform: none;
+    }
+
+    .qualification-card:hover .qualification-overlay {
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .qualification-card:hover .qualification-content {
+        justify-content: flex-end;
+    }
+
+    .qualification-card:hover h2 {
+        top: auto;
+        left: auto;
+        margin-top: 0;
+        transform: none;
+    }
+
+    .qualification-card:hover .qualification-details {
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
+    }
+
+    .more:hover {
+        transform: none;
+    }
+
+    .qualification-tags span:hover {
+        background: rgba(255, 255, 255, 0.15);
+    }
+}

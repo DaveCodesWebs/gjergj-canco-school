@@ -215,6 +215,7 @@
 
   .apply-card {
     grid-template-columns: 1fr;
+    margin-top: 2rem;
   }
 
   .apply-right {

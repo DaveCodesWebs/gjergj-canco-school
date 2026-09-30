@@ -2,6 +2,7 @@ import logo from "../assets/images/hero-nav/logorm.webp";
 
 import { Phone, Mail, MapPin } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,48 +11,61 @@ export default function Footer() {
         <img src={logo} className="footer-img" alt="Gjergj Canco Logo" />
 
         <div className="footer-contact">
-          <MapPin size={18} />
-          <address className="footer-address">
-            Rruga Bedri Karapici 20, Tiranë
-          </address>
+          <a
+            href="https://maps.app.goo.gl/U2pezhWNF32rNaXx5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-address"
+          >
+            <MapPin size={18} />
+            <address>Rruga Bedri Karapici 20, Tiranë</address>
+          </a>
         </div>
 
-        <a href="tel:+35542485858" className="footer-contact">
+        {/* <a href="tel:+355674954917" className="footer-contact">
           <Phone size={18} />
-          <span>04 248 5858</span>
+          <span>067 495 4917</span>
         </a>
 
-        <a href="mailto:info@gjergjcanco.edu.al" className="footer-contact">
+        <a href="mailto:Enixhogu@yahoo.com" className="footer-contact">
           <Mail size={18} />
-          <span>info@gjergjcanco.edu.al</span>
-        </a>
+          <span>Enixhogu@yahoo.com</span>
+        </a> */}
       </div>
 
       <div className="footer2">
         <ul className="nav__links">
           <li className="nav__item">
-            <a className="nav__link" href="#about">
+            <Link to="/rreth-nesh" className="nav__link">
               Rreth Nesh
-            </a>
+            </Link>
+          </li>
+          <li className="nav__item">
+            <Link to="/apliko" className="nav__link">
+              Apliko
+            </Link>
+          </li>
+          <li className="nav__item">
+            <Link to="/organigrama" className="nav__link">
+              Organigrama
+            </Link>
+          </li>
+          <li className="nav__item">
+            <Link to="/programi-mesimor/tik" className="nav__link">
+              Drejtimi TIK
+            </Link>
+          </li>
+          <li className="nav__item">
+            <Link to="/programi-mesimor/elektroteknik" className="nav__link">
+              Drejtimi Elektroteknik
+            </Link>
           </li>
 
-          <li className="nav__item">
-            <a className="nav__link" href="#degrees">
-              Degët
-            </a>
-          </li>
-
-          <li className="nav__item">
-            <a className="nav__link" href="#news">
-              Të Rejat
-            </a>
-          </li>
-
-          <li className="nav__item">
+          {/* <li className="nav__item">
             <a className="nav__link" href="#contact">
               Kontakt
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
 
@@ -84,6 +98,18 @@ export default function Footer() {
             <FaLinkedinIn />
           </a>
         </div>
+      </div>
+      <div className="footer-bottom">
+        <p>
+          © 2026 Shkolla Gjergj Canco | Developed by{" "}
+          <a
+            href="https://www.linkedin.com/in/david-dundo/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            David Dundo
+          </a>
+        </p>
       </div>
     </footer>
   );

@@ -1,0 +1,71 @@
+{
+  "featured": {
+    "name": "Laboratori All-in-One",
+    "description": "Laboratori “All-in-One” është një hapësirë multifunksionale që integron fusha të ndryshme të teknologjisë së informacionit dhe komunikimit. Ai mund të përdoret për programim, zhvillim web, multimedia, rrjeta, administrim sistemesh dhe projekte të integruara TIK. Laboratori krijon mundësi për punë individuale dhe në grup, zhvillimin e projekteve ndërdisiplinore dhe aplikimin praktik të njohurive të fituara në laboratorët e specializuar.",
+    "image": "/src/assets/images/laboratoret/alll-in-one.webp"
+  },
+  "secondary": [
+    {
+      "name": "Laboratori Multimedia",
+      "description": "Ky laborator është i orientuar drejt krijimit, përpunimit dhe prezantimit të përmbajtjeve multimediale. Nxënësit realizojnë projekte që përfshijnë grafikë, fotografi, audio, video, animacion dhe materiale digjitale. Laboratori ofron mundësi për përdorimin praktik të mjeteve dhe programeve multimedia, duke nxitur kreativitetin, komunikimin vizual dhe zhvillimin e aftësive teknike në prodhimin e përmbajtjeve digjitale.",
+      "image": "/src/assets/images/laboratoret/macbooks-multimedia.webp"
+    },
+    {
+      "name": "Laboratori Rrjete të dhënash",
+      "description": "Ky laborator është i orientuar drejt zhvillimit të njohurive dhe aftësive praktike në fushën e rrjeteve kompjuterike dhe infrastrukturës së teknologjisë së informacionit. Nxënësit mund të praktikojnë konfigurimin dhe administrimin e rrjeteve, pajisjeve të komunikimit, adresimit IP, shërbimeve të rrjetit, sigurisë së informacionit dhe mirëmbajtjes së infrastrukturës TIK. Laboratori shërben gjithashtu për realizimin e ushtrimeve praktike dhe projekteve që lidhen me komunikimin dhe shkëmbimin e të dhënave.",
+      "image": "/src/assets/images/laboratoret/rrjeta.webp"
+    },
+    {
+      "name": "Laboratori Automatizim",
+      "description": "Ky laborator është i dedikuar zhvillimit të njohurive dhe aftësive praktike në fushën e automatizimit dhe sistemeve të kontrollit. Nxënësit zhvillojnë ushtrime praktike mbi qarqet e komandimit, sensorët, aktuatorët, pajisjet e kontrollit dhe sistemet automatike. Laboratori mundëson realizimin e montimeve, lidhjeve, programimit, testimit dhe diagnostikimit të sistemeve të automatizuara, duke lidhur njohuritë teorike me zbatimet praktike në industri.",
+      "image": "/src/assets/images/laboratoret/automatizim.webp"
+    },
+    {
+      "name": "Laboratori Elektroteknik",
+      "description": "Ky laborator është i dedikuar zhvillimit të aftësive praktike në fushën e elektroteknikës dhe përdorimit të pajisjeve elektrike. Nxënësit realizojnë matje, montime dhe lidhje të qarqeve elektrike, si dhe punojnë me komponentë, aparatura matëse dhe pajisje elektroteknike. Laboratori shërben për përvetësimin e njohurive mbi qarqet elektrike, makinat elektrike, instalimet dhe sistemet elektroteknike, duke zbatuar njëkohësisht rregullat dhe masat e sigurisë në punë.",
+      "image": "/src/assets/images/laboratoret/elektronike.webp"
+    }
+  ],
+  "grid": [
+    {
+      "name": "Laboratori i Mbështetjes së Përdoruesve TIK",
+      "description": "Ky laborator është i orientuar drejt zhvillimit të aftësive praktike për mbështetjen teknike të përdoruesve dhe administrimin e pajisjeve TIK. Nxënësit mund të praktikojnë diagnostikimin dhe zgjidhjen e problemeve teknike, instalimin dhe konfigurimin e programeve dhe pajisjeve, mirëmbajtjen e kompjuterëve dhe ofrimin e asistencës për përdoruesit. Laboratori mund të shërbejë edhe si mjedis praktik për përvetësimin e procedurave të suportit teknik dhe menaxhimit të pajisjeve informatike.",
+      "image": null
+    },
+    {
+      "name": "Laboratori i Programimit",
+      "description": "Laboratori i Programimit është i dedikuar zhvillimit të aftësive në algoritmikë, programim dhe krijimin e aplikacioneve. Nxënësit ushtrohen në gjuhë të ndryshme programimi dhe punojnë me struktura të të dhënave, algoritme, baza të të dhënave dhe projekte praktike. Hapësira synon të zhvillojë të menduarit logjik, zgjidhjen e problemeve dhe aftësinë për të ndërtuar zgjidhje software.",
+      "image": null
+    },
+    {
+      "name": "Laboratori Instalime Elektrike Civile dhe Industriale",
+      "description": "Ky laborator është i dedikuar zhvillimit të njohurive dhe aftësive praktike në fushën e instalimeve elektrike civile dhe industriale. Nxënësit realizojnë ushtrime praktike për montimin, lidhjen, kontrollin dhe mirëmbajtjen e instalimeve elektrike në ambiente të ndryshme. Në laborator praktikohen skema elektrike, qarqe ndriçimi dhe fuqie, pajisje mbrojtëse, panele elektrike, sisteme komandimi dhe elemente të instalimeve industriale. Laboratori mundëson zbatimin praktik të njohurive teorike dhe zhvillimin e aftësive profesionale, duke respektuar standardet teknike dhe rregullat e sigurisë në punë.",
+      "image": null
+    },
+    {
+      "name": "Laboratori Elektroteknik Niveli 2",
+      "description": "Ky laborator është i orientuar drejt zhvillimit të njohurive dhe aftësive praktike bazë në fushën e elektroteknikës. Nxënësit realizojnë ushtrime mbi qarqet elektrike, komponentët elektroteknikë, matjet elektrike dhe përdorimin e pajisjeve të ndryshme laboratorike. Laboratori mundëson zbatimin praktik të koncepteve teorike dhe zhvillimin gradual të aftësive profesionale, duke respektuar rregullat e sigurisë gjatë punës.",
+      "image": null
+    },
+    {
+      "name": "Laboratori Elektroteknik Niveli 4",
+      "description": "Ky laborator mbështet zhvillimin e kompetencave të avancuara praktike në fushën e elektroteknikës. Nxënësit punojnë me qarqe dhe sisteme elektroteknike më komplekse, pajisje matëse, makina elektrike, sisteme komandimi dhe elementë të instalimeve elektrike. Nëpërmjet ushtrimeve dhe projekteve praktike zhvillohen aftësitë për montim, matje, testim, diagnostikim dhe mirëmbajtje të sistemeve elektroteknike.",
+      "image": null
+    },
+    {
+      "name": "Laboratori TIK Niveli 2",
+      "description": "Ky laborator është i dedikuar zhvillimit të kompetencave bazë në teknologjinë e informacionit dhe komunikimit. Nxënësit praktikojnë përdorimin e kompjuterëve, programeve aplikative, sistemeve operative dhe mjeteve digjitale. Laboratori krijon mundësi për zhvillimin e aftësive në përpunimin e informacionit, komunikimin digjital, organizimin e të dhënave dhe përdorimin e teknologjisë në funksion të mësimit dhe aktiviteteve profesionale.",
+      "image": null
+    },
+    {
+      "name": "Salla e Projekteve dhe Inovacionit",
+      "description": "Salla e Projekteve dhe Inovacionit është një hapësirë multifunksionale e dedikuar zhvillimit të projekteve, ideve kreative dhe aktiviteteve praktike të nxënësve. Ajo mundëson punën individuale dhe në grup, kërkimin, eksperimentimin dhe realizimin e projekteve ndërdisiplinore. Salla shërben si mjedis për zhvillimin e aftësive në zgjidhjen e problemeve, mendimin krijues, përdorimin e teknologjisë dhe kthimin e ideve në produkte ose zgjidhje konkrete.",
+      "image": null
+    },
+    {
+      "name": "Laboratori Zhvillim Website",
+      "description": "Ky laborator është i dedikuar zhvillimit të njohurive dhe aftësive praktike në krijimin dhe zhvillimin e website-ve. Nxënësit punojnë me teknologji dhe mjete të zhvillimit web, duke realizuar faqe interneti statike dhe dinamike, struktura të përmbajtjes dhe elemente interaktive. Laboratori mundëson praktikimin e proceseve të projektimit, kodimit, testimit dhe përmirësimit të website-ve, duke zhvilluar aftësi të nevojshme për profesionet e zhvillimit web.",
+      "image": null
+    }
+  ]
+}

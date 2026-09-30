@@ -24,11 +24,11 @@ export default function CTA() {
             Apliko Tani
           </button>
 
-          <button className="contact" onClick={() => navigate("/kontakt")}>
+          {/* <button className="contact" onClick={() => navigate("/kontakt")}>
             
   Na Kontakto
   <Phone className="phone-icon" size={18} />
-          </button>
+          </button> */}
         </div>
 
       </div>

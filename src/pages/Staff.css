@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.staff-page {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 5rem 0 7rem;
+  color: #111827;
+}
+
+.staff-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 5rem;
+}
+
+.staff-eyebrow {
+  display: inline-block;
+  margin: 0 0 0.7rem;
+  color: #c62828;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.staff-header h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  line-height: 1.15;
+  font-weight: 700;
+  color: #111827;
+}
+
+.staff-header > p:last-child {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #5b6472;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Sections */
+
+.staff-section {
+  padding: 5rem 0;
+  border-top: 5px solid #eeeeee;
+}
+
+.staff-section:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+
+.staff-section h2 {
+  margin: 0 0 2.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+
+
+/* Principal */
+
+.staff-principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+
+.staff-principal-photo {
+  width: min(340px, 100%);
+  aspect-ratio: 1 / 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.staff-principal-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.staff-principal-photo:hover img {
+  transform: scale(1.025);
+}
+
+.staff-principal-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0 0;
+  text-align: center;
+}
+
+.staff-role {
+  margin: 0 0 0.5rem;
+  color: #c62828;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.staff-principal-info h3 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.staff-principal-bio {
+  width: 100%;
+  max-width: none;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.staff-principal-bio p {
+  margin: 0;
+  color: #5b6472;
+  font-size: 0.98rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* Management */
+
+.staff-management-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.staff-secretary {
+  max-width: 600px;
+}
+
+.staff-management {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.staff-management-photo {
+  width: 180px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.staff-management-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.staff-management-photo:hover img {
+  transform: scale(1.03);
+}
+
+.staff-management-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.staff-management-info button,
+.staff-teacher-info button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+  padding: 0.4rem 0;
+  border: none;
+  background: none;
+  color: #c62828;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.staff-management-info button::after,
+.staff-teacher-info button::after {
+  content: "›";
+  font-size: 1.2rem;
+  line-height: 0;
+  transition: transform 0.25s ease;
+}
+
+.staff-management-info button:hover::after,
+.staff-teacher-info button:hover::after {
+  transform: translateX(4px);
+}
+
+/* Teachers */
+
+.staff-teachers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 2.5rem;
+  row-gap: 4rem;
+}
+
+.staff-teacher {
+  min-width: 0;
+}
+
+.staff-teacher-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #f1f1f1;
+}
+
+.staff-teacher-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.staff-teacher:hover .staff-teacher-photo img {
+  transform: scale(1.035);
+}
+
+.staff-teacher-info {
+  padding-top: 1rem;
+}
+
+.staff-teacher-info h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 700;
+  color: #111827;
+}
+
+.staff-teacher-info p {
+  margin: 0;
+  color: #c62828;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.staff-teacher-info button {
+  margin-top: 0.75rem;
+}
+
+/* Placeholder modal */
+
+.staff-modal-placeholder {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.staff-modal-placeholder-content {
+  width: min(500px, 100%);
+  padding: 2.5rem;
+  background: #fff;
+}
+
+.staff-modal-placeholder-content h2 {
+  margin: 0 0 0.5rem;
+  color: #111827;
+}
+
+.staff-modal-placeholder-content p {
+  margin: 0 0 1.5rem;
+  color: #5b6472;
+}
+
+.staff-modal-placeholder-content button {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 6px;
+  background: #c62828;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .staff-page {
+    width: min(100% - 2rem, 700px);
+  }
+
+  .staff-principal {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .staff-principal-photo {
+    min-height: 420px;
+  }
+
+  .staff-management-list {
+    gap: 2.5rem;
+  }
+
+  .staff-management {
+    grid-template-columns: 125px 1fr;
+    gap: 1.25rem;
+  }
+
+  .staff-management-photo {
+    width: 125px;
+  }
+
+  .staff-teachers {
+    column-gap: 1.5rem;
+    row-gap: 3rem;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .staff-page {
+    width: calc(100% - 2rem);
+    padding: 4rem 0 5rem;
+  }
+
+  .staff-header {
+    margin-bottom: 4rem;
+  }
+
+  .staff-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .staff-header > p:last-child {
+    font-size: 0.9rem;
+  }
+
+  .staff-section {
+    padding: 4rem 0;
+    border-top-width: 4px;
+  }
+
+  .staff-section h2 {
+    margin-bottom: 2.2rem;
+    font-size: 1.5rem;
+  }
+
+  .staff-principal {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .staff-principal-photo {
+    width: min(280px, 100%);
+  }
+
+  .staff-principal-info {
+    padding-top: 1.5rem;
+  }
+
+  .staff-principal-info h3 {
+    font-size: 1.6rem;
+  }
+
+  .staff-principal-bio {
+    margin-top: 1.5rem;
+  }
+
+
+  .staff-principal-bio p {
+    font-size: 0.9rem;
+  }
+
+  .staff-management-list {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .staff-management {
+    grid-template-columns: 110px 1fr;
+    gap: 1.25rem;
+  }
+
+  .staff-management-photo {
+    width: 110px;
+  }
+
+  .staff-teachers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.2rem;
+    row-gap: 2.5rem;
+  }
+
+  .staff-teacher-info {
+    padding-top: 0.8rem;
+  }
+
+  .staff-teacher-info h3 {
+    font-size: 0.88rem;
+  }
+
+  .staff-teacher-info p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .staff-teachers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.2rem;
+    row-gap: 2.5rem;
+  }
+}
+
+.staff-photo-skeleton {
+  width: 100%;
+  height: 100%;
+  background: #e0e0e0;
+  border-radius: inherit;
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+
+.staff-photo-skeleton {
+  width: 100%;
+  height: 100%;
+  min-height: 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f1f1f1;
+  color: #888;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.staff-section h2 {
+  display: inline-block;
+  position: relative;
+}
+
+.staff-section h2::after {
+  content: "";
+  display: block;
+
+  width: 45px;
+  height: 3px;
+
+  margin-top: 0.5rem;
+
+  background: #c62828;
+}

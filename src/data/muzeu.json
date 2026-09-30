@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Matësi i fuqisë së fushës",
+    "englishTitle": "Field Strength Meter",
+    "image": "mates-i-fuqise.webp",
+    "description": "Ky është ndoshta eksponati më i rrallë në koleksion, një perlë për çdo muze të teknologjisë.",
+    "manufacturer": "Tecnica Elettronica System (TES), Milano, Itali",
+    "year": "Rreth vitit 1969",
+    "function": "Përdorej nga teknikët për akordimin e saktë të antenave të radios dhe televizionit (në brezat VHF dhe UHF) duke matur fuqinë e fushës elektromagnetike.",
+    "specifications": ["VHF: 41–270 MHz", "UHF: 470–830 MHz"],
+    "museumSignificance": [
+      "Përfaqësues i epokës analoge: shembull i instrumenteve matëse portative profesionale para ardhjes së spektrum-analizatorëve dixhitalë.",
+      "I rrallë dhe koleksionues: konsiderohet një objekt i lakmuar për koleksionistët e elektronikës së vjetër dhe dizajnit industrial.",
+      "Gjendja: njësitë e gjetura shpesh janë jo-funksionale ose për pjesë këmbimi."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Voltmetri Universal BM38BE",
+    "englishTitle": "Analoge Multimeter",
+    "image": "voltmeter-universal.webp",
+    "description": "Ky instrument është një dëshmitar i gjallë i industrisë dhe shkencës sovjetike.",
+    "manufacturer": "BRSS (ish-Bashkimi Sovjetik). Modelet \"BM\" prodhoheshin shpesh në Ukrainë (p.sh. në Zhitomir).",
+    "year": null,
+    "function": "Një multimetër analog i tavolinës, i aftë të masë tensionin (DC/AC), rrymën dhe rezistencën.",
+    "specifications": [
+      "Tension deri në 1000 V",
+      "Me sondë speciale deri në 5 kV",
+      "Klasa e saktësisë 2.5 për rrymë të vazhduar (DC)",
+      "Klasa e saktësisë 4.0 për rrymë alternative (AC)"
+    ],
+    "museumSignificance": [
+      "Përfaqëson standardin e instrumenteve matëse në vendet e ish-Bllokut Lindor.",
+      "Shkalla analoge me pasqyrë dhe numri i madh i diapazoneve e bëjnë të përshtatshëm për të shpjeguar parimet e matjes elektronike para ekraneve dixhitale."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Osciloskopi dixhital HAMEG HMO1522",
+    "englishTitle": "Digital Oscilloscope",
+    "image": "lt344.webp",
+    "description": "Një eksponat i \"fundit të një epoke\", duke qenë tashmë një instrument modern që po bëhet i vjetëruar.",
+    "manufacturer": "HAMEG, Gjermani (tani pjesë e Rohde & Schwarz)",
+    "year": "Rreth vitit 2010",
+    "function": "Një oshiloskop i avancuar për diagnostikimin dhe projektimin e qarqeve elektronike.",
+    "specifications": [
+      "Bandwidth: 150 MHz (2 kanale)",
+      "Mostrimi: 2 GSa/s (Gigasaamples per second)",
+      "Memoria: 2 Mpts",
+      "MSO Ready: mund të shtohen 8 kanale logjike për sinjale dixhitale"
+    ],
+    "museumSignificance": [
+      "Tranzicioni dixhital: përfaqëson brezin e parë të oshiloskopëve të përballueshëm dhe kompaktë që zëvendësuan ato analoge.",
+      "Tani është zëvendësuar nga pajisje me panele me prekje dhe specifika shumë më të larta."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Shunt-i 60mV / 10Ω / 3V / 1000Ω",
+    "englishTitle": null,
+    "image": "shunt-i.webp",
+    "description": "Një shembull i një \"rezistence precize\" ose pajisjeje matëse me shumë funksione.",
+    "manufacturer": "MADE IN CHECHOSLOVAKIA (ish-Çekosllovaki)",
+    "year": null,
+    "function": "Një shunt përdoret për të matur rryma të larta. Ai lidhet në seri me qarkun; në skajet e tij krijohet një rënie e vogël e tensionit që është proporcionale me rrymën.",
+    "specifications": [
+      "60 mV: tensioni nominal në skajet e shuntit për rrymën maksimale",
+      "10Ω, 3V, 1000Ω: vlera të integruara për përdorime të ndryshme, sipas dokumentit"
+    ],
+    "museumSignificance": [
+      "Tregon se si matej rryma e lartë para ekzistencës së multimetrave dixhitalë me kapëse rryme.",
+      "Pajisjet shpesh ishin të mbyllura në bakelit dhe kishin lidhje të mëdha e të forta për rryma të larta."
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "Seria \"TESA / TEGLA / TEGA\"",
+    "englishTitle": "Çelësat rrotullues",
+    "image": "tesa.webp",
+    "description": "Këto nuk janë pajisje në vete, por komponentë të nivelit të lartë që gjenden shpesh në instrumentet matëse profesionale.",
+    "manufacturer": "TESA, Zvicër",
+    "year": null,
+    "function": "Çelësa rrotullues shumëpozicionalë, të projektuar për të pasur kontakt elektrik perfekt dhe për të zgjedhur me saktësi një nga shumë qarqet.",
+    "specifications": [],
+    "museumSignificance": [
+      "Përfaqësojnë saktësinë mekanike në shërbim të elektronikës.",
+      "Edhe të shkëputur nga pajisja origjinale, janë me interes për entuziastët që restaurojnë instrumente të vjetra."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pajisjet me tekst cirilik",
+    "englishTitle": "Sovjetike / Ruse",
+    "image": "test-cirilik.webp",
+    "description": "Këto janë dy artikuj të veçantë të paraqitur në koleksion.",
+    "manufacturer": "BRSS / industri sovjetike",
+    "year": null,
+    "function": "АВСМЕТ ka shumë të ngjarë të jetë një markë ose model specifik i një \"Avometri\" (АВОmetër - Amper-Volt-Ohm metër). МОМЕТ ka të ngjarë të lidhet me çift rrotullues ose moment force.",
+    "specifications": [],
+    "museumSignificance": [
+      "Janë shembuj të industrisë sovjetike që përdorte ose përshtaste dizajne të ndryshme dhe krijonte instrumente të thjeshta por të forta për nevojat e veta."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Magazina e Rezistencës МСР-47",
+    "englishTitle": "Resistance Box",
+    "image": "magazina-e-rezistences.webp",
+    "description": "Një kuti rezistencash precize me çelësa dhe priza, e brendshme e së cilës përmban një seri rezistencash precize.",
+    "manufacturer": "BRSS",
+    "year": null,
+    "function": "Duke rrotulluar çelësat, tekniku mund të nxjerrë në terminale një vlerë specifike të rezistencës.",
+    "specifications": ["Klasa e saktësisë: 0.1"],
+    "museumSignificance": [
+      "Tregon nivelin e lartë të arritur nga industria sovjetike në fushën e metrologjisë.",
+      "Dokumenti e paraqet si një nga pajisjet më të vlefshme të koleksionit nga pikëpamja e historisë së matjeve."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Schneider Electric \"DIGITAL 102\"",
+    "englishTitle": "Identifikim i shpejtë",
+    "image": "schneider-electric.webp",
+    "description": "Kjo pjesë përmbledh disa pajisje dhe elementë të tjerë të identifikuar në material.",
+    "manufacturer": "Schneider Electric / të tjera",
+    "year": null,
+    "function": "Schneider Electric \"DIGITAL 102\" mund të jetë pjesë e një sistemi matës ose kontrolli industrial. Pajisja e shënuar \"150/300/600 W\" identifikohet si një wattmetër.",
+    "specifications": ["\"DIGITAL 102\" dhe \"1000V\"", "\"150/300/600 W\""],
+    "museumSignificance": [
+      "Materiali shënon se \"MOTOR OIL LEVEL\" nuk ka lidhje me elektronikën dhe është futur aksidentalisht në foto."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Tesla BM342A",
+    "englishTitle": "Grid Dip Meter / Grid Dip Oscillator",
+    "image": "tesla-bm.webp",
+    "description": "Instrument i vjetër me tuba vakumi për matjen e rezonancës (grid dip meter), i prodhuar nga Tesla në ish-Çekosllovaki gjatë viteve 1970.",
+    "manufacturer": "Tesla",
+    "year": "Vitet 1970",
+    "function": "Pajisje portative testimi që përdoret nga radio-amatorët dhe teknikët e elektronikës për testimin e rezonancës së qarqeve LC.",
+    "specifications": [
+      "Gama e frekuencës: 5–250 MHz",
+      "Lloji: instrument matës RF me tuba vakumi (valvula)",
+      "Furnizimi: zakonisht 230 V",
+      "Bobina të ndryshueshme plug-in",
+      "Kuti druri dhe set bobinash si aksesorë tipikë"
+    ],
+    "museumSignificance": [
+      "Kur bobina afrohet pranë një qarku LC të akorduar, përthithja e energjisë shkakton një \"dip\" në lexim dhe mundëson leximin e frekuencës së rezonancës.",
+      "Mund të shërbejë gjithashtu si gjenerues bazë sinjalesh, valëmatës përthithës ose tregues i intensitetit të fushës RF."
+    ]
+  }
+]

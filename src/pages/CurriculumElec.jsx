@@ -229,7 +229,7 @@ export default function CurriculumElec() {
    return(
            <>
            <Navbar />
-           <Hero2 type="Elektroteknik"/>
+           <Hero2  title="Elektroteknik"/>
            <CurriculumTimeline title={elektroTimeline.title} description={elektroTimeline.description} timeline={elektroTimeline.timeline} />
            <CurriculumProfiles profiles={elektroProfiles} />
            <Statistics />

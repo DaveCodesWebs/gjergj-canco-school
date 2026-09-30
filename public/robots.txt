@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gjergjcanco.edu.al//sitemap.xml

@@ -30,18 +30,6 @@
   background-color: #ccc;
 }
 
-@media (max-width: 768px) {
-  .statistics {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .divider {
-    width: 70px;
-    height: 1px;
-  }
-}
-
 .statistics-section {
   width: 100%;
   padding: 60px 0;
@@ -58,29 +46,71 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
-
+background-color: #f9f9f9;
   font-family: "Montserrat", sans-serif;
   
 }
 
-.stat {
-  flex: 1;
-  text-align: center;
+/* ===== TABLET RESPONSIVE ===== */
+
+@media (max-width: 900px) {
+  .statistics,
+  .statistics-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .stat h2 {
+    font-size: 32px;
+  }
+
+  .divider {
+    width: 70px;
+    height: 1px;
+  }
 }
 
-.stat h2 {
-  font-size: 38px;
-  font-weight: 700;
-  margin: 0 0 8px;
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width: 640px) {
+  .statistics,
+  .statistics-container {
+    padding: 30px 16px;
+    gap: 24px;
+  }
+
+  .stat h2 {
+    font-size: 28px;
+  }
+
+  .stat p {
+    font-size: 13px;
+  }
+
+  .divider {
+    width: 50px;
+  }
 }
 
-.stat p {
-  font-size: 14px;
-  font-weight: 500;
-}
+@media (max-width: 480px) {
+  .statistics,
+  .statistics-container {
+    padding: 20px 12px;
+    gap: 16px;
+  }
 
-.divider {
-  width: 1px;
-  height: 70px;
-  background: #ccc;
+  .stat h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+
+  .stat p {
+    font-size: 12px;
+  }
+
+  .divider {
+    width: 40px;
+    height: 0.5px;
+  }
 }

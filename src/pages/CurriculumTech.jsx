@@ -235,7 +235,7 @@ export default function Curriculum(){
     return(
         <>
         <Navbar />
-        <Hero2 />
+        <Hero2 title="tik" />
         <CurriculumTimeline title={tikTimeline.title} description={tikTimeline.description} timeline={tikTimeline.timeline} />
         <CurriculumProfiles profiles={profiles} />
         <Statistics />

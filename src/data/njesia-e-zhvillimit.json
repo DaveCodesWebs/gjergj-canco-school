@@ -1,0 +1,108 @@
+{
+  "page": {
+    "title": "Njësia e Zhvillimit",
+    "leader": "Msc. Jonida Haxhi",
+    "intro": null
+  },
+  "functions": [
+    "Koordinator i Zhvillimit të Vazhduar Profesional të mësimdhënësve.",
+    "Koordinator i Kurrikulve në nivel ofruesi.",
+    "Koordinator për zhvillimi dhe krijimin e lidhjeve me biznesin.",
+    "Koordinator i orientimit në karrierë të nxënësve.",
+    "Koordinator për hartimin dhe zbatimin e Projekteve Zhvillimore.",
+    "Koordinator për zhvillimin e marketingut të ofruesit të AFP-së.",
+    "Koordinator për kryerjen e gjurmimit në nivel ofruesi."
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "title": "Përgjegjëse e Njësisë së Zhvillimit",
+      "person": "Jonida Haxhi",
+      "photo": "/staff/jonida-haxhi.webp",
+      "responsibilities": [
+        "Planifikon dhe koordinon mbështetjen e zhvillimin e vazhduar të koordinatorëve të njësisë së zhvillimit për monitorimin dhe për raportimin e veprimtarisë dhe të arritjeve të njësisë së Zhvillimit.",
+        "Planifikon dhe organizon punën për zhvillimin e procesit të vetëvlerësimit në bashkëpunim me drejtorinë e shkollës.",
+        "Planifikon dhe organizon punën për zhvillimin e procesit të akreditimit dhe inspektimit në bashkëpunim me stafin drejtues."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Zhvillimi i vazhduar profesional",
+      "person": "Xhiana Lapi",
+      "photo": "/staff/xhiana-lapi.webp",
+      "responsibilities": [
+        "Analizon rregullisht nevojat për zhvillimin e vazhduar profesional.",
+        "Harton planin e veprimtarive për zhvillimin e vazhduar profesional.",
+        "Mbikëqyr dhe vlerëson ecurinë e procesit të zhvillimit të vazhduar profesional.",
+        "Koordinon dhe mbështet zhvillimin e vazhduar profesional të mësuesve dhe instruktorëve të sapoemëruar."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Zhvillimi i kurrikulës në nivel shkolle",
+      "person": "Jonida Haxhi",
+      "photo": "/staff/jonida-haxhi.webp",
+      "responsibilities": [
+        "Koordinon dhe drejton procesin e hartimit dhe të përshtatjes së vazhdueshme të kurrikulës.",
+        "Mbështet personelin mësimdhënës në hartimin e planeve të mësimdhënies dhe të instrumenteve të vlerësimit të vazhduar dhe të provimeve përfundimtare.",
+        "Koordinon organizimin e proceseve të vlerësimit në shkollë."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Koordinator i orientimit në karrierë të nxënësve",
+      "person": "Laert Kokthi",
+      "photo": "/staff/laert-kokthi.webp",
+      "responsibilities": [
+        "Sigurohet që kandidatët për nxënësit dhe prindërit kanë informacion të mjaftueshëm mbi natyrën e profesioneve dhe kualifikimeve që ofrohen.",
+        "Sigurohet që nxënësit kanë informacion të mjaftueshëm për zgjedhjen e profilit, sipas strukturës së programit të kualifikimit.",
+        "Në bashkëpunim me koordinatorin/en për zhvillimin e kurrikulës, sigurohet që kurrikula e zbatuar përmban elemente të edukimit për karrierë.",
+        "Në bashkëpunim me koordinatoren për marrëdhënie me biznesin orienton nxënësit dhe prindërit e tyre me tregun e punës, mundësitë për karrierë dhe punëdhënësit e mundshëm."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Gjurmimi në shkollë",
+      "person": "Etra Vendresha",
+      "photo": "/staff/etra-vendresha.webp",
+      "responsibilities": [
+        "Koordinon dhe drejton procesin e mbledhjes së të dhënave për nxënësit që kanë ndjekur shkollën.",
+        "Analizon të dhënat nga gjurmimi, duke garantuar trajtimin konfidencial të të dhënave individuale.",
+        "Koordinon raportimin dhe komunikimin e rezultateve nga gjurmimi te palët kyçe të interesit.",
+        "Koordinon dhe mbështet procesin e përdorimit të rezultateve në nivel ofruesi."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Marketingu në shkollë",
+      "person": "Eni Xhogu",
+      "photo": "/staff/eni-xhogu.webp",
+      "responsibilities": [
+        "Lehtëson marrëdhëniet me publikun në bashkëpunim me drejtorinë e shkollës dhe koordinatorët e tjerë të njësisë së Zhvillimit.",
+        "Koncepton, përgatit dhe koordinon zbatimin e veprimtarive të ndryshme për të promovuar praninë, ofertën dhe përfaqësimin e shkollës në nivele të ndryshme."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Projektet Zhvillimore",
+      "person": "Eni Xhogu",
+      "photo": "/staff/eni-xhogu.webp",
+      "responsibilities": [
+        "Identifikon burime të mundshme financimi për projekte zhvillimi.",
+        "Përgatit propozimet për projekte të integruara në planin strategjik të shkollës.",
+        "Koordinon organizimin, zbatimin dhe raportimin e projekteve të Zhvillimit."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Marrëdhëniet me biznesin",
+      "person": "Mirela Hoxha",
+      "photo": null,
+      "responsibilities": [
+        "Identifikon biznese të reja, me qëllim zgjerimin e rrjetit të bashkëpunëtorëve partnerë socialë.",
+        "Koordinon realizimin e praktikave profesionale në biznese; promovon shkollën te bizneset në rajon.",
+        "Ndërton marrëdhënie me partnerë të tjerë socialë në rajon dhe më gjerë."
+      ]
+    }
+  ]
+}

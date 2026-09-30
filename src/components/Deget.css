@@ -23,18 +23,47 @@
     flex: 2;
 }
 
+/* ===== TABLET RESPONSIVE ===== */
+
 @media (max-width: 1000px) {
     .qualifications-section {
         flex-direction: column;
         height: auto;
+        margin: 60px auto;
+        padding: 0 20px;
     }
 
     .qualification-card {
-        min-height: 450px;
+        min-height: 400px;
     }
 
     .qualifications-section:hover .qualification-card,
     .qualifications-section .qualification-card:hover {
         flex: 1;
+    }
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width: 640px) {
+    .qualifications-section {
+        margin: 40px auto;
+        padding: 0 16px;
+        gap: 16px;
+    }
+
+    .qualification-card {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .qualifications-section {
+        margin: 30px auto;
+        padding: 0 12px;
+    }
+
+    .qualification-card {
+        min-height: 300px;
     }
 }

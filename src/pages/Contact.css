@@ -181,6 +181,7 @@
   .contact-card {
     height: auto;
     grid-template-columns: 1fr;
+    margin-top: 2rem;
   }
 
   .contact-left {

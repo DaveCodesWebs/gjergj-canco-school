@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+
 export default function Contact() {
   return (
     <>
@@ -54,10 +55,10 @@ export function ContactInfo() {
         <div>
           <h4>Telefon</h4>
           <a
-            href="tel:+35542485858"
+            href="tel:+355674954917"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            04 248 5858
+            067 495 4917
           </a>
         </div>
       </div>
@@ -67,10 +68,10 @@ export function ContactInfo() {
         <div>
           <h4>Email</h4>
           <a
-            href="mailto:hazelaze312@gmail.com"
+            href="mailto:Enixhogu@yahoo.com"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            hazelaze312@gmail.com
+            Enixhogu@yahoo.com
           </a>
         </div>
       </div>
@@ -115,12 +116,39 @@ export function ContactForm() {
   }
 
   async function handleSubmit(e) {
-    e.preventDefault();
+  e.preventDefault();
 
-    // EmailJS goes here
+  try {
+    const response = await fetch("/contact.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
 
-    console.log(form);
+    const data = await response.json();
+
+    if (data.success) {
+      alert("Mesazhi u dërgua me sukses!");
+
+      setForm({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
+    } else {
+      console.error(data.error);
+      alert("Gabim gjatë dërgimit të mesazhit.");
+    }
+  } catch (error) {
+    console.error(error);
+    alert("Nuk u lidh me serverin.");
   }
+}
 
   return (
     <form className="contact-form" onSubmit={handleSubmit}>

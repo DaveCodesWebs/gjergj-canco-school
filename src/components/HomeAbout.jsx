@@ -1,7 +1,8 @@
 import "./HomeAbout.css";
 import schoolImage from "../assets/images/good/two buddies.webp";
-
+import { useNavigate } from "react-router-dom";
 export default function HomeAbout() {
+  const navigate = useNavigate();
   return (
     <section className="about-section" id="about">
       <div className="about-container">
@@ -35,7 +36,13 @@ export default function HomeAbout() {
             <div>✓ Praktikë në Biznes</div>
             <div>✓ Projekte Ndërkombëtare</div>
           </div>
+
+          <button className="more margin-top" onClick={() => navigate(`/rreth-nesh`)}>
+            Lexo më shumë rreth nesh →
+          </button>
         </div>
+
+        
 
         <div className="about-image">
           <img src={schoolImage} alt="Shkolla Gjergj Canco" />

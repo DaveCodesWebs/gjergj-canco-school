@@ -1,238 +1,190 @@
 .gallery-section {
-    width: 100%;
-    padding: 100px 40px;
-    overflow: hidden;
-    font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 80px 0;
+  overflow: hidden;
 }
 
 .gallery-wrapper {
-    position: relative;
-    max-width: 1350px;
-    margin: 0 auto;
+  width: 100%;
 }
 
-.gallery-images {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 22px 26px;
+.gallery-image-container {
+  position: relative;
+  width: 100%;
+  min-height: 620px;
+  overflow: hidden;
 }
 
-/* ---------- Images ---------- */
+.gallery-main-image {
+  width: 100%;
+  height: 800px;
 
-.gallery-image {
-    height: 230px;
-    overflow: hidden;
-    border-radius: 12px;
+  display: block;
 
-    box-shadow: 0 14px 35px rgba(0, 0, 0, .10);
-
-    opacity: 0;
-    animation: imageReveal .9s forwards;
+  object-fit: cover;
+  object-position: center;
 }
 
-.gallery-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-
-    transition: transform .5s ease;
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.538);
 }
 
-.gallery-image:hover img {
-    transform: scale(1.06);
-}
-
-/* ---------- Stagger ---------- */
-
-.img1 {
-    transform: translate(-30px, -20px);
-    --startX: -100px;
-    --startY: -100px;
-    animation-delay: .1s;
-}
-
-.img2 {
-    transform: translate(30px, -10px);
-    --startX: 100px;
-    --startY: -100px;
-    animation-delay: .2s;
-}
-
-.img3 {
-    transform: translate(-40px, 10px);
-    --startX: -100px;
-    --startY: 0;
-    animation-delay: .35s;
-}
-
-.img4 {
-    transform: translate(40px, -5px);
-    --startX: 100px;
-    --startY: 0;
-    animation-delay: .45s;
-}
-
-.img5 {
-    transform: translate(-20px, 30px);
-    --startX: -100px;
-    --startY: 100px;
-    animation-delay: .6s;
-}
-
-.img6 {
-    transform: translate(30px, 20px);
-    --startX: 100px;
-    --startY: 100px;
-    animation-delay: .7s;
-}
-
-/* ---------- Overlay ---------- */
+/* Quote centered horizontally + vertically */
 
 .gallery-content {
-    position: absolute;
+  position: absolute;
+  inset: 0;
 
-    top: 50%;
-    left: 50%;
+  z-index: 2;
 
-    transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 18px;
-
-    z-index: 20;
+  padding: 40px;
 }
 
 .gallery-card {
-    width: 430px;
+  position: relative;
 
-    background: rgba(255,255,255,.95);
-    backdrop-filter: blur(16px);
+  width:900px;
 
-    border-radius: 22px;
+  padding: 30px 40px;
 
-    padding: 42px 40px;
+  text-align: center;
 
-    text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  line-height: 1.8;
+}
 
-    position: relative;
+.gallery-eyebrow {
+  margin: 0 0 16px;
 
-    box-shadow: 0 20px 50px rgba(0,0,0,.12);
+  color: rgba(255, 255, 255, 0.7);
 
-    opacity: 0;
-    animation: fadeUp .6s forwards;
-    animation-delay: 1s;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 
 .gallery-card h2 {
-    margin: 0;
+    font-family: "Georgia", serif;
+  margin: 0;
 
-    font-size: 1.55rem;
-    line-height: 1.55;
-    font-weight: 500;
+  color: white;
 
-    letter-spacing: .2px;
+  font-size: 2.2rem;
+  line-height: 2;
+  font-weight: 500;
+  
 
-    color: #4a2b2b;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
 }
 
-/* ---------- Quote ---------- */
+/* Quote marks */
 
 .quote-mark {
-    position: absolute;
+  position: absolute;
 
-    font-family: Georgia, serif;
-    font-size: 3.8rem;
-    line-height: 1;
+  font-family: Georgia, serif;
+  font-size: 4.5rem;
+  line-height: 1;
 
-    color: rgba(139, 32, 32, .2);
+  color: rgb(255, 255, 255);
 
-    user-select: none;
-    pointer-events: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 .opening {
-    top: 16px;
-    left: 20px;
+  top: -5px;
+  left: 0;
 }
 
 .closing {
-    bottom: 6px;
-    right: 20px;
+  right: 0;
+  bottom: -25px;
 }
 
-/* ---------- Statistics ---------- */
+/* Tablet */
 
-.statistics-section {
-    opacity: 0;
-    animation: fadeUp .5s forwards;
-    animation-delay: 1.35s;
+@media (max-width: 900px) {
+  .gallery-section {
+    padding: 60px 0;
+  }
+
+  .gallery-image-container {
+    min-height: 540px;
+  }
+
+  .gallery-main-image {
+    height: 540px;
+  }
+
+  .gallery-content {
+    padding: 30px;
+  }
+
+  .gallery-card {
+    padding: 25px;
+  }
+
+  .gallery-card h2 {
+    font-size: 2rem;
+  }
 }
 
-/* ---------- Animations ---------- */
+/* Mobile */
 
-@keyframes imageReveal {
+@media (max-width: 600px) {
+  .gallery-section {
+    padding: 45px 0;
+  }
 
-    from {
-        opacity: 0;
-        transform: translate(var(--startX), var(--startY));
-    }
+  .gallery-image-container {
+    min-height: 600px;
+  }
 
-    to {
-        opacity: 1;
-    }
+  .gallery-main-image {
+    height: 600px;
+  }
 
-}
+  .gallery-overlay {
+    background: rgba(0, 0, 0, 0.52);
+  }
 
-@keyframes fadeUp {
+  .gallery-content {
+    padding: 20px;
+  }
 
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
+  .gallery-card {
+    padding: 20px 10px;
+  }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  .gallery-eyebrow {
+    font-size: 0.65rem;
+  }
 
-}
+  .gallery-card h2 {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
 
-/* ---------- Responsive ---------- */
+  .quote-mark {
+    font-size: 3.5rem;
+  }
 
-@media (max-width: 1100px) {
+  .opening {
+    left: -5px;
+  }
 
-    .gallery-images {
-        grid-template-columns: 1fr;
-    }
-
-    .gallery-image,
-    .img1,
-    .img2,
-    .img3,
-    .img4,
-    .img5,
-    .img6 {
-        transform: none;
-        height: 220px;
-    }
-
-    .gallery-content {
-        position: static;
-        transform: none;
-
-        margin-top: 40px;
-    }
-
-    .gallery-card {
-        width: 100%;
-        max-width: 500px;
-    }
-
-    .gallery-card h2 {
-        font-size: 1.4rem;
-    }
-
+  .closing {
+    right: -5px;
+    bottom: -20px;
+  }
 }

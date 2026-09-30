@@ -60,7 +60,7 @@ export default function Apply() {
 
         <div className="apply-card">
           <div className="apply-left">
-            <span className="badge">Regjistrimet janë të hapura</span>
+          
 
             <h1>Regjistrimet për Klasën e 10-të</h1>
 
@@ -78,8 +78,8 @@ export default function Apply() {
               <h3>Drejtimet</h3>
 
               <div className="study-tags">
-                <span>💻 TIK</span>
-                <span>⚡ Elektroteknikë</span>
+                <span>TIK</span>
+                <span>Elektroteknikë</span>
               </div>
             </div>
 
