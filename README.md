@@ -1,16 +1,115 @@
-# React + Vite
+# Gjergj Canco School Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Official website for **Gjergj Canco Professional High School**, developed as a modern, responsive, multi-page web application using React.
 
-Currently, two official plugins are available:
+This project was built for a real educational institution and serves as the school's official online presence, providing information about its programs, facilities, organization, and application process.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+[https://gjergjcanco.edu.al/](https://gjergjcanco.edu.al/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript
+- React Router
+- HTML5
+- CSS3
+- Vite
+- cPanel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Features
+
+- Multi-page React application
+- Client-side routing with React Router
+- Fully responsive design
+- Responsive navigation and layouts
+- Dedicated educational program pages
+- School application section
+- Organizational structure
+- Laboratory information
+- School history and museum section
+- Information about the Development Unit
+- Production deployment and routing configuration
+- Redirect handling for legacy URLs
+
+
+
+## Project Structure
+
+The website contains several dedicated sections and routes, including:
+
+- Home
+- About the School
+- Educational Programs
+- Information Technology Program
+- Electrical Engineering Program
+- Application
+- Organizational Structure
+- Laboratories
+- Development Unit
+- Museum Room
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/DaveCodesWebs/gjergj-canco-school-website.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd gjergj-canco-school-website
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+### Development Server
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL provided by Vite.
+
+### Production Build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+
+
+
+
+
+## Author
+
+**David Dundo**
+
+Frontend Development, and Design.
